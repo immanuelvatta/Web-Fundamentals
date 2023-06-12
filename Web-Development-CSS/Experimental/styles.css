@@ -1,0 +1,65 @@
+h1 {
+    color: rebeccapurple;
+    font-size: 50px;
+}
+.is-centered {
+    text-align: center;
+}
+.is-red {
+    color: red;
+}
+
+#game {
+    width: 320px;
+    height: 240px;
+    overflow: hidden;
+    background: linear-gradient(#1293f5, #bae8ff 80%, #35b236 80%);
+}
+
+/* descendent */
+div.quote p{
+    color: orange;
+    font-style: italic;
+}
+/* direct descendent */
+.header > img {
+    height: 50px;
+}
+
+/* color vs background color */
+h2{
+    color: cyan;
+    background-color: grey;
+}
+
+p.right{
+    /* alignment
+
+    text-align: left;
+    text-align: center; */
+    text-align: right;
+}
+p.decoration{
+    /* decoration
+
+    text-decoration: underline;
+    text-decoration:none;*/
+    text-decoration: line-through;
+}
+p.weight{
+    /* text bold or narrow
+
+    font-weight: normal;
+    font-weight: light;
+    font-weight: 900; */
+    font-weight: bold;
+}
+
+#font{
+    /* basic types of fonts
+
+    font-family: serif;
+    font-family: sans-serif;
+    font-family: monospace; */
+    font-family: cursive;
+}
