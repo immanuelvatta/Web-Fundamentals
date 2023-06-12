@@ -2,6 +2,6 @@
 
 - Understanding the basics of front-end development.
 - Introduction to:
-   -- HTML
-   -- CSS
-   -- JavaScript
+   - HTML
+   - CSS
+   - JavaScript
