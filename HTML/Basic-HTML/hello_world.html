@@ -22,7 +22,6 @@
         <a href="https://google.com">Google</a> <!--link to google-->
         <p>To italicize a words use "em" <em>all these words will be italicized.</em>
         <br>To make words bolded use "strong" <strong>all these words will be bolded.</strong></p>
-
         <ul> Here is some unordered list (bullet points)
             <li>Point 1</li>
             <li>Point 2</li>
@@ -36,9 +35,7 @@
             <li>Number 3</li>
             <li>Number 4</li>
         </ul>
-
         <br>
-
         <table>
             <tr>
                 <!-- header -->
@@ -67,59 +64,59 @@
         <br>
         <p>Video starts, includes auto play, loop and muted</p>
         <video src="imgs/wateringFlowers.mp4" autoplay loop muted></video>
-
         <br>
         <!-- Adding Text inputs -->
-        <div>
-            <label>Name:</label>
-            <input type="text" name="First_Name" placeholder="Immanuel">
-        </div>
-        <div>
-            <label>Age:</label>
-            <input type="number" name="age" placeholder="20">
-        </div>
-        <div>
-            <label>Email:</label>
-            <input type="email" name="email" placeholder="example@example.com">
-        </div>
-        <div>
-            <label>Password:</label>
-            <input type="password" name="password">
-        </div>
-        <div>
-            <label>Join Date:</label>
-            <input type="date" name="join_date">
-        </div>
-        <div>
-            <label>Color Picker</label>
-            <input type="color" name="color_picker">
-        </div>
-        <div>
-            <label>Radio buttons</label>
-            <input type="radio" name="font" value="bold" id="bold">
-            <label for="bold"><strong>Bold</strong></label>
-            <input type="radio" name="font" value="normal" id="normal">
-            <label for="normal">Normal</label>
-        </div>
-        <div>
-            <label>Checkbox:</label>
-            <input type="checkbox" name="accpet" id="accpet">
-            <label for="accpet">I agree</label>
-        </div>
-        <div>
-            <label>Comments:</label>
-            <textarea name ="comment" cols="20" rows="3">
-            </textarea>
-        </div>
-        <div>
-            <label>Select:</label>
-            <select name="Options">
-                <option value="Option1">Option1</option>
-                <option value="Option2">Option2</option>
-                <option value="Option3">Option3</option>
-            </select>
-        </div>
-        <input type="submit" value="Submit">
-        
+        <form action="/process" method="post">
+            <div>
+                <label>Name:</label>
+                <input type="text" name="First_Name" placeholder="Immanuel">
+            </div>
+            <div>
+                <label>Age:</label>
+                <input type="number" name="age" placeholder="20">
+            </div>
+            <div>
+                <label>Email:</label>
+                <input type="email" name="email" placeholder="example@example.com">
+            </div>
+            <div>
+                <label>Password:</label>
+                <input type="password" name="password">
+            </div>
+            <div>
+                <label>Join Date:</label>
+                <input type="date" name="join_date">
+            </div>
+            <div>
+                <label>Color Picker</label>
+                <input type="color" name="color_picker">
+            </div>
+            <div>
+                <label>Radio buttons</label>
+                <input type="radio" name="font" value="bold" id="bold">
+                <label for="bold"><strong>Bold</strong></label>
+                <input type="radio" name="font" value="normal" id="normal">
+                <label for="normal">Normal</label>
+            </div>
+            <div>
+                <label>Checkbox:</label>
+                <input type="checkbox" name="accpet" id="accpet">
+                <label for="accpet">I agree</label>
+            </div>
+            <div>
+                <label>Comments:</label>
+                <textarea name ="comment" cols="20" rows="3">
+                </textarea>
+            </div>
+            <div>
+                <label>Select:</label>
+                <select name="Options">
+                    <option value="Option1">Option1</option>
+                    <option value="Option2">Option2</option>
+                    <option value="Option3">Option3</option>
+                </select>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
     </body>
 </html>
