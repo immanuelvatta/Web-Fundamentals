@@ -1,0 +1,24 @@
+.container{
+    width: 960px;
+    height: 400px;
+    margin: 0 auto; /* centered in the middle of the screen with margin: 0 auto;f*/
+    background-color: silver;
+    display: flex;
+    align-items: center;
+}
+
+.col{
+    background-color: blanchedalmond;
+    padding: 10px;
+    /* display: inline-block; */
+    width: 250px;
+}
+.col-2{
+    background-color:  lightblue;
+    padding: 10px;
+    width: 400px;
+}
+
+.col p, .col-2 p{
+    font-size: 1.2rem;
+}
