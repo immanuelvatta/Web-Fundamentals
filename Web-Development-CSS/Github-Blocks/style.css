@@ -1,0 +1,29 @@
+h1, p{
+    font-family:Arial, Helvetica, sans-serif ;
+    text-align: center;
+    color: #3c4855;
+}
+
+#first-row,#second-row,#third-row{
+    width: 700px;
+    height: 250px;
+    background-color: #5ac6f8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto ;
+    border: 10px solid white;
+}
+
+#second-row{
+    background-color: #d89aaa;
+}
+
+#third-row{
+    background-color: #d6d6d6;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
