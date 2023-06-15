@@ -1,0 +1,52 @@
+.yellow{
+    background-color: #fed100;
+    height: 600px;
+    width: 1200px;
+    margin: 0 auto;
+    position:relative;
+}
+.bt1{
+    width: 0px;
+    height: 0;
+    border-top: 300px solid transparent;
+    border-right: 500px solid black;
+    border-bottom: 300px solid transparent;
+    display: inline-block;
+    position:absolute;
+    right: 1;
+    /* margin-left: 150px; */
+    
+}
+
+.bt2{
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-left: 50px solid black;
+    border-bottom: 25px solid transparent;
+    display: inline-block;
+    position:absolute;
+    left:0;
+    
+}
+
+.gt1{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid green;
+    position:absolute;
+    bottom: 0;
+
+}
+
+.gt2{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid green;
+    position: absolute;
+    top: 0px;
+}
