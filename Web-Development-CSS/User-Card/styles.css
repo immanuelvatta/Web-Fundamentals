@@ -1,0 +1,62 @@
+
+
+.container{
+    font-family:cursive;
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.user-profile{
+    width: 100%;
+    font-size: 20px;
+    overflow: hidden;
+    border: 2px solid darkgray;
+    margin-bottom: 20px;
+    border-top: 2px solid transparent;
+}
+
+.img-container{
+    height:120px;
+    background-color: #17a2b8;
+    margin-bottom: 40px;
+    border: 3px solid #17a2b8;
+}
+
+.bottom-container{
+    padding: 20px;
+}
+
+.user-img{
+    width: 180px;
+    padding:5px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.full-name{
+    margin: 20px  0px 20px 30px;
+}
+
+.location-img{
+    width: 20px;
+}
+
+.location{
+    margin: 20px  0px 20px 30px;
+}
+
+p{
+    margin: 20px  0px 20px 30px;
+}
+a{
+    color: #3a81e6
+}
+.gear-img{
+    width: 20px;
+    margin: 0px  0px 0px 30px;
+}
+
