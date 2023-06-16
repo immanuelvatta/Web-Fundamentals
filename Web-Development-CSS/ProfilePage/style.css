@@ -1,0 +1,258 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family:cursive;
+    
+}
+
+.nav-container{
+    background-color: black;
+    color: white;
+    padding:8px;
+    height: 80px;
+    align-items: center;
+    /* width: 1000px; */
+    padding: 5px;
+    display: flex;
+    align-items:center;
+    justify-content: start;
+
+}
+.nav-title{
+    margin-left: 150px;
+    
+}
+.nav-links{
+    /* width: 500px; */
+    font-weight: bold;
+    font-size: 20px;
+    list-style-type: none;
+    display: flex;
+    align-items:start;
+    justify-content:space-between;
+}
+li{
+    margin-left: 40px;
+    
+}
+.nav-container a{
+    text-decoration: none;
+    color:white;
+    margin: 10px;
+}
+.btn{
+    background-color: #17a2b8;
+    color: white;
+    box-shadow: 5px 5px #000000;
+    font-weight: bold;
+    margin:4px 2px;
+    height: 50px;
+    min-width: 150px;
+    font-size: 15px;
+    margin-left:190px;
+    padding: 0px 1px;
+    display: inline-block;
+    text-align: center;
+    /* width: fit-content; */
+}
+.container {
+    width: 2000px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    
+}
+
+.l-container {
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+}
+
+.r-container {
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+}
+
+.profile-container {
+    width: 600px;
+    margin-left: 150px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.user-profile{
+    width: 100%;
+    font-size: 20px;
+    overflow: hidden;
+    border: 5px solid darkgray;
+    margin-bottom: 20px;
+    
+}
+
+.img-container{
+    height:120px;
+    background-color: #17a2b8;
+    margin-bottom: 40px;
+    border: 3px solid #17a2b8;
+}
+
+.bottom-container{
+    padding: 20px;
+}
+
+.user-img{
+    width: 180px;
+    padding:5px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.full-name{
+    margin: 20px  0px 20px 30px;
+}
+
+.location-img{
+    width: 20px;
+}
+
+.location{
+    margin: 20px  0px 20px 30px;
+}
+
+.user-title{
+    margin: 20px  0px 20px 30px;
+}
+a{
+    color: #3a81e6
+}
+.gear-img{
+    width: 20px;
+    margin: 0px  0px 0px 30px;
+}
+
+.edu-container{
+    width: 600px;
+    margin-left: 150px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    
+    /* justify-content: space-around; */
+}
+
+.edu{
+    /* margin: 20px  0px 20px 30px; */
+    width: 100%;
+    font-size: 20px;
+    overflow: hidden;
+    border: 5px solid darkgray;
+    margin-bottom: 20px;
+}
+
+h3,h2,p{
+    margin: 20px  0px 20px 30px;
+    
+}
+
+.title-container{
+    height:60px;
+    background-color: gray;
+    border: 6px solid gray;
+}
+
+.year{
+    color: gray;
+}
+
+.title{
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.connection-req-container{
+    width: 600px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.inc-connections{
+    width: 400px;
+    border: 5px solid darkgray;
+    padding-bottom: 10px;
+}
+
+.image-cropper {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%; 
+    
+}
+
+.rounded{
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+    padding-bottom: 20px;
+
+}
+.connection-table{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.accept-close{
+    width: 50px;
+}
+.connection-table :nth-child(2){
+    padding-right: 60px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.user-connections-container{
+    width: 600px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+
+}
+.your-connections{
+    width: 400px;
+    border: 5px solid darkgray;
+    padding-bottom: 20px;
+}
+hr{
+    margin: 10px 0px;
+}
+
+a{
+    padding-left: 30px;
+    font-size: 25px;    
+}
+
+span{
+
+    background-color: lightgray;
+    color: black;
+    border-radius: 50%;
+    align-items: center;
+    padding-left: 10px;
+    margin-right: 10px;
+}

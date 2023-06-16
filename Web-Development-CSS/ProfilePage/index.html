@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flex Navigation Bar</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        </style>
+    </head>
+    <body>
+        <div class="nav-container">
+            <h1 class="nav-title">Profile</h1>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="active">My Profile</a></li>
+                <li><a href="#">Find Connections</a></li>
+            </ul>
+            <button class="btn">Sign Out</button>
+        </div>    
+        <div class="container">
+            <div class="l-container">
+                <!-- <h1>aaaa</h1> -->
+                <div class="profile-container">
+                    <div class="user-profile"> 
+                        <div class="img-container"> 
+                            <img src="./assets/user-circle.png" class="user-img" alt="user profile picture">
+                        </div>    
+                        <div class="bottom-container"> 
+                            <h2 class="full-name">Immanuel Vattakunnel</h2>
+                                <h3 class="location">
+                                    <img src="./assets/map-marker.png" class="location-img" alt="location marker">
+                                    Austin, TX
+                                </h3>
+                            <p class="user-title">Developer | Engineer | Problem Solver 
+                                <br>
+                                Master of shadows and the Internet!
+                            </p>
+                            <img src="./assets/gear.png" class="gear-img" alt="profile edit gear">
+                            <a href="#" >edit profile </a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="edu-container">
+                    <div class="edu">
+                        <div class="title-container">
+                            <h3 class="title">Education</h3>
+                        </div>
+                        <h2>Coding Dojo- Full Stack Bootcamp</h2>
+                        <p class="year">Jun 2023-Sep2023</p>
+                        <p>Triple black belt in Python, MERN, and C#...</p>
+                    </div>
+                </div>
+    
+            </div>            
+            <div class="r-container">
+                <div class="connection-req-container">
+                    <div class="inc-connections">
+                        <div class="title-container">
+                            <h3 class="title"><span> 2 </span> Connection Requests</h3>
+                        </div>
+                        <table class ="connection-table">
+                            <tr>
+                                <td>
+                                    <div class="image-cropper">
+                                        <img src="./assets/todd-s.jpg" alt="pic-of-todd" class="rounded">
+                                    </div>
+                                </td>
+                                <td>Todd E</td>
+                                <td> <img src="./assets/accept-circle.png" alt="accept-circle" class="accept-close">
+                                </td>
+                                <td>
+                                    <img src="./assets/close-circle.png" alt="close-circle" class="accept-close">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="image-cropper">
+                                        <img src="./assets/phil-s.jpg" alt="pic-of-phil" class="rounded" >
+                                    </div>
+                                </td>
+                                <td>Phil K</td>
+                                <td> <img src="./assets/accept-circle.png" alt="accept-circle" class="accept-close">
+                                </td>
+                                <td>
+                                    <img src="./assets/close-circle.png" alt="close-circle" class="accept-close">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="user-connections-container">
+                    <div class="your-connections">
+                        <div class="title-container">
+                            <!-- <div class="circle-count">500+</div> -->
+                            <h3 class="title"> <span> 500+</span> Your Connections</h3>
+                        </div>
+                        <table class ="connection-table">
+                            <tr>
+                                <td>
+                                    <div class="image-cropper">
+                                        <img src="./assets/adrien-s.jpg" alt="pic-of-adrien" class="rounded" >
+                                    </div>
+                                </td>
+                                <td>Adrien D</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="image-cropper">
+                                        <img src="./assets/anne-s.jpg" alt="pic-of-anne" class="rounded" >
+                                    </div>
+                                </td>
+                                <td>Anne J</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="image-cropper">
+                                        <img src="./assets/alayne-s.jpg" alt="pic-of-alayne" class="rounded" >
+                                    </div>
+                                </td>
+                                <td>Alayne T</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="image-cropper">
+                                        <img src="./assets/arry-s.jpg" alt="pic-of-arry" class="rounded" >
+                                    </div>
+                                </td>
+                                <td>Arry Y</td>
+                            </tr>
+                        </table>
+                        <hr>
+                        <a href="">View More</a>
+                    </div>
+
+                </div>
+            </div>
+    
+            
+
+        </div>
+        
+    </body>
+</html>
