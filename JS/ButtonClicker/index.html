@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dojonary</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <!-- top navigation -->
+            <nav class="top">
+                <div class="nav-container">
+                    <h1>Dojonary</h1>
+                    <input type="text" placeholder="Search" name="query" class="search">
+                    <button onclick="sessionStatus(this)" class="btn login">Login</button>
+                </div>
+            </nav>
+
+            <!-- main content -->
+            <main>
+                <div class="definition-container">
+                    <div class="definition">
+                        <div class="nouns">
+                            <h2 class="title">ninja</h2>
+                            <h2><span class="italics">noun</span></h2>
+                            <h3>Plural: <span class="italics">ninjas</span></h3>
+                            <button onclick="alertLikes()" class="btn likes">13 likes</button>
+                        </div>
+                        <div class="noun-definition">
+                            <h4>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></h4>
+                        </div>
+                    </div>
+                    <div class="definition">
+                        <div class="nouns">
+                            <h2 class="title">ninja</h2>
+                            <h2>noun</h2>
+                            <h3>Plural: <span class="italics">ninjas</span></h3>
+                            <button onclick="alertLikes()" class="btn likes">37 likes</button>
+                        </div>
+                        <div class="noun-definition">
+                            <h4 class="def">A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</h4>
+                        </div>
+                    </div>
+                </div>
+                <aside>
+                    <h4> Dojonary is defined by <span class="bold">YOU</span></h4>
+                    <button onclick="removeButton(this)" class="btn addDef">Add Definition</button>
+                </aside>
+            </main>
+            
+        
+        
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
