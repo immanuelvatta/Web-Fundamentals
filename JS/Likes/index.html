@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- top navigation -->
+        <nav class="top">
+            <div class="nav-container">
+                <h1>Network</h1>
+            </div>
+        </nav>
+        <!-- title of page -->
+        <div class="title">
+            <h2>Your Feed</h2>
+        </div>
+
+        <main>
+            <!-- right column -->
+            <div class="flex-container">
+                <div class="user">
+                    <div class="userinfo">
+                        <h3 class="title">Neil M</h3>
+                        <h4><span id="neilCounter">3</span> like(s)</h4>
+                        <button class="btn" onclick="incrementLikes('neilCounter')">Like</button>
+                    </div>
+                    <div class="status">
+                        <h3>I just set up this new discord bot, let me know what you all think. <a href="#">link</a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="user">
+                    <div class="userinfo">
+                        <h3 class="title">Nichole K</h3>
+                        <h4><span id="nicoleCounter">12</span> like(s)</h4>
+                        <button class="btn" onclick="incrementLikes('nicoleCounter')">Like</button>
+                    </div>
+                    <div class="status">
+                        <h3>Just finished my <a href="#">next comic</a>, check it out. </h3>
+                    </div>
+                </div>
+                <div class="user">
+                    <div class="userinfo">
+                        <h3 class="title">Jim R</h3>
+                        <h4><span id="jimCounter">9</span> like(s)</h4>
+                        <button class="btn likes" onclick="incrementLikes('jimCounter')">Like</button>
+                    </div>
+                    <div class="status">
+                        <h3>Just can't stop listening to the <a href="#">new album.</a>Who else is liking it?. </h3>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- left column -->
+            <div class="userProfile">
+                <div>
+                    <img src="assets/user-circle.png" alt="user circle">
+                    <h3><a href="#">Add an avatar</a> </h3>
+                    <h2> Immanuel Vattakunnel </h2>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
