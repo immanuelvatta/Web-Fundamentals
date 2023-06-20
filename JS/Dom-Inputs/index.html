@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Dom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 onclick="alert('hi there')">more dom</h1>
+    <div class="card">
+        <!-- <p>Hello my name is:</p> -->
+        <p>my favorite color is:</p>
+        <!-- <h3 id="name-tag">Example</h3> -->
+    </div>
+        
+    <!-- <input type="text" value="Example" oninput="setName(this)"> -->
+    <input class="colorInput" type="text"> <!--type="color"-->
+    <button onclick="setColor()">submit</button>
+
+    <div>
+        <label>I would like to eat </label>
+    <select onchange="chooseLunch(this)">
+        <option>Tacos</option>
+        <option>Pasta</option>
+        <option>Sushi</option>
+    </select> 
+    </div>
+
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
