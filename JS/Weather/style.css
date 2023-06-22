@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* outline: 1px dotted black;  */
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* navbar */
+.top{
+    background-color: #9fc5f8;
+    color: white;
+}
+.nav, .container, footer{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.nav{
+    display: flex;
+    height: 120px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.siteTitle{
+    font-size: 50px;
+}
+.nav-links{
+    list-style-type: none;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-links a{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* main current location */
+/* .container{
+    border: 1px dotted red;
+} */
+    .currentCity{
+        display: flex;
+        height: 100px;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 3px solid black;
+    }
+
+    .location{
+        font-size: 40px;
+    }
+    .currentCity select{
+        width:auto;
+        font-size: 15px;
+        
+    }
+
+/* forecast */
+    .displayForecast{
+        display: flex;
+    }
+
+    .forecast{
+        text-align: center;
+        background-color: #eeeeee;
+        padding: 40px 0px;
+        flex:1;
+        margin: 0px 10px 0px 10px;
+    }
+
+    .forecast img{
+        width: 75%;
+        border-radius: 50%;
+        margin: 30px 0px 30px 0px;
+    }
+    .weather-description{
+        padding: 10px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .temp{
+        display: flex;
+        justify-content:space-evenly;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .high-temp{
+        color: #cf2a27;
+    }
+
+    .low-temp{
+        color: #2b78e4;
+    }
+    
+    .high-temp::after, .low-temp::after{
+        content: "°";
+    }
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* margin-left: 21.5%; */
+    
+}
+
+.cookies{
+    box-sizing: border-box;
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+    position:absolute;
+    bottom: 10px;
+    border: 3px solid black;
+}
+
+.cookie-text{
+    font-weight: bolder;
+    width: 80%;
+}
+
+.btn{
+    padding: 10px 30px;
+    border: 2px solid black;
+    /* margin-right: 10px; */
+    background-color: #9fc5f8;
+    font-weight: 800;
+    cursor: pointer;
+}
