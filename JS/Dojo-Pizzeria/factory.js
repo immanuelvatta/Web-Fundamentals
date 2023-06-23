@@ -67,10 +67,12 @@ var sauceTypes = ["Traditional","Marinara","Spicy Red Sauce","BBQ Sauce", "Pesto
 var cheeses = ["Parmesan ", "Gouda", "Mozzarella","Provolone","Ricotta"];
 var toppings = ["Pepperoni","Mushroom","Sausage","Beef","Bacon","Pineapple"];
 
+//function to have multiple values that could be selected
 // function randomRange(max, min) {
 //     return Math.floor(Math.random() * max - min) + min;
 // }
 
+//function for random elements selected
 // function randomPick(arr) {
 //     var i = Math.floor(arr.length * Math.random());
 //     return arr[i];
@@ -86,15 +88,29 @@ function randomPizza(){
     var pizza = {};
     pizza.crust = crustTypes[Math.floor(Math.random()*crustTypes.length)];
     pizza.sauce = sauceTypes[Math.floor(Math.random()*sauceTypes.length)];
-    pizza.cheese = cheeses[Math.floor(Math.random()*cheeses.length)];
-    pizza.topping = toppings[Math.floor(Math.random()*toppings.length)];
 
+    // pizza.cheese = cheeses[Math.floor(Math.random()*cheeses.length)];
+    // pizza.topping = toppings[Math.floor(Math.random()*toppings.length)];
+
+    pizza.cheese = [];
+    pizza.topping = [];
+
+
+    // for multiple cheeses
     // for(var i=0; i<randomRange(5, 1); i++) {
     //     pizza.cheeses.push(randomPick(cheeses));
     // }
+    // for multiple toppings
     // for(var i=0; i<randomRange(4, 0); i++) {
     //     pizza.toppings.push(randomPick(toppings));
     // }
+    //for 3 cheese
+    for(var i=0; i<2; i++){
+        pizza.cheese.push(cheeses[Math.floor(Math.random()*cheeses.length)]);
+    }
+    for (var i=0; i<3; i++){
+        pizza.topping.push(toppings[Math.floor(Math.random()*toppings.length)]);
+    }
     
     return pizza;
 }
