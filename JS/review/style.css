@@ -1,0 +1,186 @@
+/* 1000 pixels body */
+/* css reset */
+*{
+    /* background-color: blanchedalmond; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px dotted red; */
+    font-family: sans-serif;
+}
+/* utility class (class will be reused)*/
+.flex-children{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* nav */
+nav{
+    /* background-color: blue; */
+    min-height: 50px;
+    padding: 0 10px;
+    background-color: darkgray;
+    /* margin-bottom: 20px; */
+}
+
+.left-nav{
+    /* background-color: yellow; */
+    width: 40%;
+}
+.left-nav > img{
+    width: 50px;
+}
+
+.left-nav > button{
+    background-color: orange;
+}
+
+.right-nav{
+    background-color: white;
+}
+
+.right-nav >button{
+    padding: 5px 10px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.right-nav > button:nth-child(1){
+    background-color: blue;
+    color: white;
+}
+.right-nav > button:nth-child(2){
+    background-color: orange;
+}
+
+
+/* header logo-area*/
+header{
+    /* background-color: aqua; */
+    min-height: 50px;
+    /* padding: 0px 90px; */
+    padding: 30px 90px 0px 90px;
+}
+    .header-topic{
+        /* background-color: blue; */
+        width: 260px;
+        min-height: 100px;
+        min-height: 50px;
+    }
+    /* img header */
+    .header-topic >img{
+        width: 75px;
+        border: 2px solid black;
+        border-radius: 50px;
+    }
+    .header-topic > button {
+        background-color: red;
+        color: white;
+        padding: 5px 22px;
+    }
+/* links */
+header> ul{
+    /* background-color: red; */
+    width: 260px;
+    list-style-type: none;
+    padding-top: 10px;
+}
+header> ul > li:nth-child(1){
+    /* background-color:red ; */
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+main{
+    min-height: 500px;
+    background-color: #deddde;
+    padding: 5px 90px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+/* left side */
+.left-column{
+    flex: 3;
+    background-color: gray;
+    margin-right: 20px;
+    min-height: 400px;
+    padding: 10px;
+}
+
+/* the card */
+.card{
+    /* background-color: bisque; */
+    min-height: 200px;
+    border: 2px solid gray;
+    align-items: flex-start;
+}
+/* vote buttons */
+.vote-button{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.card img {
+    width: 20px
+}
+
+/* the card content */
+.the-content{
+    background-color: white;
+    width: 85%;
+    padding: 5px 10px;
+}
+.the-content > img{
+    width: 100%;
+}
+
+/* bottom content links / share */
+.bottom-content{
+    /* background-color: red; */
+    justify-content:  flex-start;
+    gap: 10px;
+}
+/* right side */
+.right-column{
+    flex:2;
+    background-color: white;
+    min-height: 400px;
+    /* padding: 10px; */
+    /* margin-top: 10px; */
+}
+div.side{
+    /* background-color: red; */
+    min-height: 200px;
+    border: 2px solid gray;
+    /* padding-bottom: 20px; */
+}
+
+h4{
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+    border: 2px solid black;
+}
+ol{
+    list-style-position: inside;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.side>button{
+    width: 90%;
+    display: block;
+    margin: 10px auto;
+    padding: 8px 12px;
+    border: 2px solid black;
+    border-radius: 5px;
+}

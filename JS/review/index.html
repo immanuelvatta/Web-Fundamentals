@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belt Prep</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- top nav -->
+    <nav class='flex-children'>
+
+        <div class="left-nav flex-children">
+            <img src="assets/cat.png" alt="cat-logo">
+            <h1>CodeIt</h1>
+            <input id="userInput" type="text" placeholder="search">
+            <button onclick="alertMe('userInput')">Go</button>
+        </div>
+        <div class="right-nav">
+            <button>get App</button>
+            <button onclick="changeButton(this)">Log in</button>
+        </div>
+
+    </nav>
+
+    <!-- logo area -->
+    <header>
+        <div class="header-topic flex-children">
+            <img src="assets/cat.png" alt="cat-logo">
+            <h2>c/Dojo</h2>
+            <!-- <button onclick="removeMe(this)">Join</button> -->
+            <button id="removeThisButton" onclick="removeMe(this)">Join</button>
+        </div>
+
+        <!-- links -->
+        <ul class="flex-children">
+            <li>Posts</li>
+            <li>Wiki</li>
+            <li>c/Dojo</li>
+            <li>Discord</li>
+        </ul>
+
+    </header>
+    
+    <!-- main section -->
+    <main>
+        <!-- left side -->
+        <div class="left-column">
+            <!-- the card -->
+            <div class="card flex-children">
+                <div class="vote-button">
+                    <img onclick="voteUp(1)" src="assets/up-arrow.png" alt="up-arrow">
+                    <span id="vote1">29</span>
+                    <img onclick="voteDown(1)" src="assets/down-arrow.png" alt="down-arrow">
+                </div>
+
+                <!-- the card content -->
+                <div class="the-content">
+                    <h3>Best of Project week 2023!</h3>
+                    <img src="assets/image1.webp" alt="box">
+                    <!-- bottom content links/ share -->
+                    <div class="bottom-content">
+                        <img src="assets/chat.png" alt="chat">
+                        <span>42 comments</span>
+                        <img src="assets/share.png" alt="share">
+                        <span>Share</span>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="card flex-children">
+                <div class="vote-button">
+                    <img onclick="voteUp(2)" src="assets/up-arrow.png" alt="up-arrow">
+                    <span id="vote2">121</span>
+                    <img onclick="voteDown(2)" src="assets/down-arrow.png" alt="down-arrow">
+                </div>
+
+                <!-- the card content -->
+                <div class="the-content">
+                    <h3>Best of Project week 2023!</h3>
+                    <img src="assets/image2.webp" alt="box">
+                    <!-- bottom content links/ share -->
+                    <div class="bottom-content">
+                        <img src="assets/chat.png" alt="chat">
+                        <span>42 comments</span>
+                        <img src="assets/share.png" alt="share">
+                        <span>Share</span>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        
+        </div>
+        <div class="right-column">
+            <div class="side">
+                <h4>c/Dojo Rules</h4>
+                <ol>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li></ol>
+            </div>
+            <div class="side">
+                <h4>c/Dojo Rules</h4>
+                <button>discord.gg/cDojo</button>
+            </div>
+        
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
