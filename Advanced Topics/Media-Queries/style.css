@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbtn{
+    /* flex:4; */
+    width: 200px;
+    height: 150px;
+    justify-content: space-evenly;
+}
+@media only screen and (max-width: 480px) {
+    .navbtn{
+        width: 100%;
+        background-color: yellow;
+    }
+}
+@media only screen and (min-width: 481px) {
+    .navbtn{
+        /* width: 20%; */
+        background-color: blue;
+        
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .navbtn{
+        /* width: 15%; */
+        background-color: red;
+    }
+
+}

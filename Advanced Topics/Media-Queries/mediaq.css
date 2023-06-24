@@ -1,0 +1,69 @@
+h1{
+    color: red;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+
+section{
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* margin: 10px 10px; */
+}
+
+.fun-fact{
+    display: none;
+}
+
+.navbtn{
+    background-color: red;
+}
+
+/* the following is for when the view is past mobile */
+@media (min-width: 640px) {
+    /* this styling will apply if width is 640px or more */
+    .navbtn{
+        background-color: yellow;
+    }
+    
+}
+/* the following is for when the view is past tablet size */
+@media (min-width: 768px) {
+    /* this styling will apply if width is 768px or more */
+    .navbtn{
+        background-color: blue;
+    }
+    .fun-fact{
+        display:block;
+    }
+    aside{
+        flex:1;
+    }
+    main{
+        flex:2;
+    }
+    
+}
+/* the following is for when the view is past larger desktop size */
+@media (min-width: 1024px) {
+    /* this styling will apply if width is 1024px or more */
+    .navbtn{
+        background-color: pink;
+    }
+
+    aside{
+        flex:2;
+    }
+    main{
+        flex:3;
+    }
+}
+
